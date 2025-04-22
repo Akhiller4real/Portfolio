@@ -72,7 +72,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Pradhatri Vemula";
+            document.title = "Portfolio | Akhil Chirra";
             $("#favicon").attr("href", "assets/images/favicon2.png");
         }
         else {
@@ -84,7 +84,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Software Engineer", "Data Engineer", "Data Analyst", "Back-End Engineer"],
+    strings: ["Software Engineer","Full Stack Engineer", "Back-End Engineer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -272,8 +272,8 @@ async function fetchData(type = "skills") {
               "image": "Youtube",
               "category": "visual",
               "links": {
-                "view": "https://github.com/pradhatrivemula/Youtube-analysis-AWS",
-                "code": "https://github.com/pradhatrivemula/Youtube-analysis-AWS"
+                "view": "https://github.com/Akhiller4real/youtube-analysis",
+                "code": "https://github.com/Akhiller4real/youtube-analysis"
               }
             },
             {
@@ -282,8 +282,8 @@ async function fetchData(type = "skills") {
                 "image": "Event",
                 "category": "visual",
                 "links": {
-                  "view": "https://github.com/pradhatrivemula/EventFinder",
-                  "code": "https://github.com/pradhatrivemula/EventFinder"
+                  "view": "https://github.com/Akhiller4real/EventFinder",
+                  "code": "https://github.com/Akhiller4real/EventFinder"
                 }
               },
               {
@@ -292,8 +292,8 @@ async function fetchData(type = "skills") {
                 "image": "reddit",
                 "category": "visual",
                 "links": {
-                  "view": "https://github.com/pradhatrivemula/RedditDataPipeline",
-                  "code": "https://github.com/pradhatrivemula/RedditDataPipeline"
+                  "view": "https://github.com/Akhiller4real/RedditDataPipeline-master",
+                  "code": "https://github.com/Akhiller4real/RedditDataPipeline-master"
                 }
               },
               {
@@ -302,8 +302,8 @@ async function fetchData(type = "skills") {
                 "image": "Diabetic",
                 "category": "visual",
                 "links": {
-                  "view": "https://github.com/pradhatrivemula/DetectionOfDiabeticRetinopathyUsingBigData",
-                  "code": "https://github.com/pradhatrivemula/DetectionOfDiabeticRetinopathyUsingBigData"
+                  "view": "https://github.com/Akhiller4real/DetectionOfDiabeticRetinopathyUsingBigData",
+                  "code": "https://github.com/Akhiller4real/DetectionOfDiabeticRetinopathyUsingBigData"
                 },
               },{
                 "name": "Therapeutic Music Player",
@@ -311,8 +311,8 @@ async function fetchData(type = "skills") {
                 "image": "Therapeutic",
                 "category": "visual",
                 "links": {
-                  "view": "https://github.com/pradhatrivemula/TherapeuticMusicPlayer",
-                  "code": "https://github.com/pradhatrivemula/TherapeuticMusicPlayer"
+                  "view": "https://github.com/Akhiller4real/TherapeuticMusicPlayer",
+                  "code": "https://github.com/Akhiller4real/TherapeuticMusicPlayer"
                 },
               },
               
@@ -322,8 +322,8 @@ async function fetchData(type = "skills") {
                 "image": "Cloud",
                 "category": "visual",
                 "links": {
-                  "view": "https://github.com/pradhatrivemula/Cloud-Service-Access-Management-System",
-                  "code": "https://github.com/pradhatrivemula/Cloud-Service-Access-Management-System"
+                  "view": "https://github.com/Akhiller4real/Cloud-Service-Access-Management-System",
+                  "code": "https://github.com/Akhiller4real/Cloud-Service-Access-Management-System"
                 }
               }]
     const data = await response;
